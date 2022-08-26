@@ -3,6 +3,7 @@ using namespace std;
 
 int multiplyBy10(int num){
   num = num * 10;
+  return num;
 }
 
 int main(){

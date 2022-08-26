@@ -13,6 +13,6 @@ int main() {
   cout<<"Enter number 2: \n";
   cin>>p2;
   
-  cout<<calculateSum(p1,p2);  // calculates sum of given numbers
+  cout<<calculateSum(p1,p2)<<endl;  // calculates sum of given numbers
   return 0;
 }

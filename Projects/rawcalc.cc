@@ -10,7 +10,7 @@ int main()
 
     cout << "\n\n\n\n*****   Welcome to the Calculator ---(Developed by Zaibi)   *****";
 No:
-    cout << "\n\n\nEnter your selection(1-4):\n1:Arithmetic Calculator (+,-,/,*)\n2:Digital Storage Converter\n3:Temperature Converter\n4:Close Calculator\n\n";
+    cout << "\n\n\nEnter your selection(1-4):\n1:Arithmetic Calculator\n2:Digital Storage Converter\n3:Temperature Converter\n4:Close Calculator\n\n";
     cin >> main_choice;
     // Main switch ---- Program Starts
     switch (main_choice)
@@ -18,7 +18,7 @@ No:
         // Arithmetic Calculator
     case '1':
     Yes:
-        cout << "\nEnter first number: ";
+        cout << "Enter first number: ";
         cin >> n1;
         cout << "Enter operator (+,-,*,/): ";
         cin >> opr;
@@ -269,5 +269,5 @@ reuseAC:
     {
         goto No;
     }
-    // return 0;
+    return 0;
 }
